@@ -1,0 +1,25 @@
+<h1>Listing screenshots</h1>
+
+<table>
+  <tr>
+    <th>Name</th>
+    <th>Image</th>
+    <th></th>
+    <th></th>
+    <th></th>
+  </tr>
+
+<% @screenshots.each do |screenshot| %>
+  <tr>
+    <td><%= screenshot.name %></td>
+    <td><%= image_tag( screenshot.image.url(:thumb) ) %></td>
+    <td><%= link_to 'Show', screenshot %></td>
+    <td><%= link_to 'Edit', edit_screenshot_path(screenshot) %></td>
+    <td><%= link_to 'Destroy', screenshot, method: :delete, data: { confirm: 'Are you sure?' } %></td>
+  </tr>
+<% end %>
+</table>
+
+<br />
+
+<%= link_to 'New Screenshot', new_screenshot_path %>

@@ -1,0 +1,1 @@
+This a example project for [carrierwave-qiniu](https://github.com/huobazi/carrierwave-qiniu)
