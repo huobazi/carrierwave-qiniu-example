@@ -1,4 +1,4 @@
-This a example project for [carrierwave-qiniu](https://github.com/huobazi/carrierwave-qiniu)
+This is a example project for [carrierwave-qiniu](https://github.com/huobazi/carrierwave-qiniu)
 
 You'll need to configure it in config/initializes/carrierwave.rb
 
@@ -12,4 +12,4 @@ You'll need to configure it in config/initializes/carrierwave.rb
 end
 ```
 
-For more information on `qiniu_bucket_domain`, please read http://docs.qiniutek.com/v2/sdk/ruby/#publish
+For more information on `qiniu_bucket_domain`, please read http://docs.qiniutek.com/v3/sdk/ruby/#publish
