@@ -1,7 +1,7 @@
 PATH
   remote: ../carrierwave-qiniu/
   specs:
-    carrierwave-qiniu (0.0.8)
+    carrierwave-qiniu (0.0.9)
       carrierwave
       qiniu-rs (~> 3.4.2)
 

@@ -11,7 +11,7 @@ class ScreenshotUploader < CarrierWave::Uploader::Base
 
   # Override the directory where uploaded files will be stored.
   def store_dir
-    "uploads/screenshots/2014/04"
+    "uploads/screenshots/2014/04/#{model.id}"
   end
 
   # Add a white list of extensions which are allowed to be uploaded.
@@ -20,7 +20,7 @@ class ScreenshotUploader < CarrierWave::Uploader::Base
   end
 
   def filename
-    "#{model.id}.#{file.extension}" if original_filename.present?
+    "image.#{file.extension}" if original_filename.present?
   end
 
 end

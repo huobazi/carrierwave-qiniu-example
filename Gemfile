@@ -8,7 +8,7 @@ gem 'rails', '3.2.17'
 gem 'sqlite3', '1.3.6'
 gem 'carrierwave', '0.6.2'
 gem 'mini_magick', '3.4'
-gem "carrierwave-qiniu", :path => '../carrierwave-qiniu/'
+gem "carrierwave-qiniu", '0.0.9'
 
 
 # Gems used only for assets and not required
