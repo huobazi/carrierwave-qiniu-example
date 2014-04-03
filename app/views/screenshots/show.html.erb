@@ -7,7 +7,7 @@
 
 <p>
   <b>Image:</b>
-  <%= image_tag( @screenshot.image.url) %>
+  <%= image_tag( @screenshot.image.url + '?' + @screenshot.updated_at.to_s ) %>
 </p>
 
 

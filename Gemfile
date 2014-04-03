@@ -1,6 +1,6 @@
 source 'https://rubygems.org'
 
-gem 'rails', '3.2.8'
+gem 'rails', '3.2.17'
 
 # Bundle edge Rails instead:
 # gem 'rails', :git => 'git://github.com/rails/rails.git'
@@ -8,8 +8,7 @@ gem 'rails', '3.2.8'
 gem 'sqlite3', '1.3.6'
 gem 'carrierwave', '0.6.2'
 gem 'mini_magick', '3.4'
-gem 'qiniu-rs', '3.0.3'
-gem "carrierwave-qiniu", '0.0.2'
+gem "carrierwave-qiniu", :path => '../carrierwave-qiniu/'
 
 
 # Gems used only for assets and not required
@@ -30,7 +29,7 @@ gem 'jquery-rails', '2.0.2'
 # gem 'bcrypt-ruby', '~> 3.0.0'
 
 # To use Jbuilder templates for JSON
-# gem 'jbuilder'
+#gem 'jbuilder'
 
 # Use unicorn as the app server
 # gem 'unicorn'

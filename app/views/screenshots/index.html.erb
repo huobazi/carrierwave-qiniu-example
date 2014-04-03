@@ -12,7 +12,7 @@
 <% @screenshots.each do |screenshot| %>
   <tr>
     <td><%= screenshot.name %></td>
-    <td><%= image_tag( screenshot.image.url(:thumb) ) %></td>
+    <td><%= image_tag( screenshot.image.url  + '?' + screenshot.updated_at.to_s ) %></td>
     <td><%= link_to 'Show', screenshot %></td>
     <td><%= link_to 'Edit', edit_screenshot_path(screenshot) %></td>
     <td><%= link_to 'Destroy', screenshot, method: :delete, data: { confirm: 'Are you sure?' } %></td>
