@@ -12,4 +12,4 @@ You'll need to configure it in config/initializes/carrierwave.rb
 end
 ```
 
-For more information on `qiniu_bucket_domain`, please read http://docs.qiniutek.com/v3/sdk/ruby/#publish
+For more information on `qiniu_bucket_domain`, please read https://developer.qiniu.com/kodo/kb/5859/domain-name-to-access-the-storage-space
